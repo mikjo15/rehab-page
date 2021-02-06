@@ -1,0 +1,20 @@
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.nav-item {
+  display: inline;
+  padding: 3%;
+}
+
+.nav-item :hover {
+  color: black;
+}
