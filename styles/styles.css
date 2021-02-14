@@ -31,14 +31,19 @@ section {
 .container {
   margin: auto;
   text-align: center;
-  width: 60%;
+  width: 80%;
 }
 
 .grid-container {
+  align-items: end;
   display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 5% auto 10%;
+  row-gap: 5%;
 }
 
 .hero-container {
+  margin: auto;
   position: relative;
   text-align: center;
 }
@@ -48,6 +53,11 @@ section {
   position: absolute;
   top: 7%;
   transform: translate(-50%);
+}
+
+.width-narrow {
+  margin: auto;
+  width: 65%;
 }
 
 .navbar {
