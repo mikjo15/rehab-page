@@ -38,8 +38,21 @@ section {
   align-items: end;
   display: grid;
   grid-template-columns: 50% 50%;
-  margin: 5% auto 10%;
-  row-gap: 5%;
+  margin: 5% auto 6%;
+  row-gap: 4rem;
+}
+
+.header-line {
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px auto 20px;
+  text-align: center;
+  width: 70%;
+}
+
+.header-line span {
+  background:#fff;
+  padding:0 10px;
 }
 
 .hero-container {
@@ -89,6 +102,6 @@ section {
 }
 
 .width-narrow {
-  margin: auto;
+  margin: 2% auto 5%;
   width: 65%;
 }
