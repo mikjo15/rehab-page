@@ -28,6 +28,18 @@ section {
   margin-top: 3rem;
 }
 
+table {
+  border-collapse: collapse;
+  margin: 5% auto;
+  width: 50%;
+}
+
+td, th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
 .container {
   margin: auto;
   text-align: center;
