@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: black;
+}
+
 body {
   margin: 0;
 }
@@ -21,6 +25,7 @@ img {
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  line-height: 1.6;
   margin: 1%;
 }
 
@@ -30,6 +35,9 @@ section {
 
 table {
   border-collapse: collapse;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
   margin: 5% auto;
   width: 50%;
 }
@@ -80,7 +88,36 @@ td, th {
   transform: translate(-50%);
 }
 
+.index {
+  list-style-type: none;
+}
+
+.index li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  padding: 2%;
+}
+
+.info-table {
+  width: 100%;
+}
+
+.info-cell {
+  padding: 3%;
+  text-align: left;
+}
+
+.loading-header {
+  margin: 5rem auto;
+}
+
+.mail {
+  margin-top: 5%;
+}
+
 .navbar {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   list-style-type: none;
   margin: 1% 0 2%;
   padding: 1rem;
@@ -90,10 +127,6 @@ td, th {
 .nav-item {
   display: inline;
   padding: 3%;
-}
-
-.nav-item :hover {
-  color: black;
 }
 
 .nav-item:hover .nav-sub {
@@ -113,7 +146,53 @@ td, th {
   padding: 0 3% 1%;
 }
 
+.responsive-iframe {
+  height: 315px;
+  margin-top: 1.5%;
+  width: 560px;
+}
+
 .width-narrow {
   margin: 2% auto 5%;
   width: 65%;
+}
+
+@media only screen and (max-width: 992px) {
+  /* For mobile phones: */
+  body {
+    overflow-x: hidden;
+  }
+
+  table {
+    width: 90%;
+  }
+
+  .container {
+    width: 90%
+  }
+
+  .grid-container {
+    align-items: end;
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 5% auto 6%;
+    row-gap: 4rem;
+  }
+
+  .header-line {
+    margin: 50px auto;
+  }
+
+  .info-table {
+    width: 90%;
+  }
+
+  .responsive-iframe {
+    height: 225px;
+    width: 400px;
+  }
+
+  .width-narrow {
+    width: 90%;
+  }
 }
